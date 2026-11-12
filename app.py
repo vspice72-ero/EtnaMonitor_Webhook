@@ -26,7 +26,7 @@ def webhook():
             })
 
             # 2. Chiama l'API di GitHub per fare partire il workflow
-            gh_url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/monitor.yml/dispatches"
+            gh_url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/run_monitor.yml/dispatches"
             headers = {
                 "Authorization": f"Bearer {GITHUB_TOKEN}",
                 "Accept": "application/vnd.github+json"
