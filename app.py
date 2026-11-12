@@ -10,7 +10,7 @@ GITHUB_REPO = os.environ.get("GITHUB_REPO")  # Es: vspice72-ero/EtnaMonitor
 WORKFLOW_FILE = "run_monitor.yml"
 
 # Inserisci qui il tuo ID Telegram numerico (e quello di eventuali amici autorizzati)
-AUTORIZZATI_IDS = [123456789]  # <-- Sostituisci con il tuo ID reale
+AUTORIZZATI_IDS = [430261719, 5699356143]  # <-- Sostituisci con il tuo ID reale
 
 @app.route('/webhook', methods=['POST'])
 def telegram_webhook():
